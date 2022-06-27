@@ -71,6 +71,30 @@ input, select, textarea {
 	appearance: none;
 }
 
+#devicon-icon {
+	font-size: 3em;
+}
+
+.dev-div {
+	height: 91px;
+	padding-top: 20px;
+}
+
+.photo-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.lincoln {
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	background-color: var(--gray1);
+	object-fit: cover;
+	display: flex;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2008,7 +2032,7 @@ input, select, textarea {
 				border-left: solid 1px rgba(255, 255, 255, 0.15);
 			}
 
-			.features section .icon {
+			.features section .icon #devicon-icon {
 				-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
 				-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
@@ -2022,8 +2046,8 @@ input, select, textarea {
 				-ms-transform: scale(1);
 				transform: scale(1);
 				position: absolute;
-				left: 3em;
-				top: 3em;
+				left: 1em;
+				top: 0.5em;
 				opacity: 1;
 			}
 
